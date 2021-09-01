@@ -6,7 +6,11 @@ import CarroItem from './components/CarroItem'
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarroItem/>
+      <CarroItem
+        nome={"Modelo X"}
+        subtitulo={"Peça agora para uma "}
+        subtituloCTA={"Entrega Touchless"}
+        imagem={require('./assets/images/ModelX.jpeg')} />
     </View>
   );
 }
